@@ -1,0 +1,20 @@
+git log -Ul --word-diff
+git log -U1 --word-diff
+git log --stat
+git log --pretty
+git log --pretty=oneline
+git log --pretty=format:"%h - %an, %ar : %s"
+git log --pretty=format:"%H  Commit hash"
+git log --pretty=format:"%T  Tree hash"
+git log --pretty=format:"%t  Abbreviated tree hash"
+git log --pretty=format:"%P  Parent hashes"
+git log --pretty=format:"%p  Abbreviated parent hashes"
+git log --pretty=format:"%an Author name"
+git log --pretty=format:"%ae Author e-mail"
+git log --pretty=format:"%ad Author date (format respects the --date= option)"
+git log --pretty=format:"%ar Author date, relative"
+git log --pretty=format:"%cn Committer name"
+git log --pretty=format:"%ce Committer email"
+git log --pretty=format:"%cd Committer date"
+git log --pretty=format:"%cr Committer date, relative"
+git log --pretty=format:"%s  Subject"
