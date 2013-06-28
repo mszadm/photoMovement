@@ -1,3 +1,4 @@
+Hotfix change
 git log -Ul --word-diff
 git log -U1 --word-diff
 git log --stat
